@@ -1,0 +1,72 @@
+.main-m {
+    height: 940px;
+    background-color: rgba(31, 125, 212, 0.623);
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.822);
+    width: 800px;
+    margin: auto;
+    border: 1px solid rgb(216, 171, 24);
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+.logo {
+    color: rgb(216, 171, 24);
+    font-size: 40px;
+    width: 167px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(216, 171, 24);
+    border-top: 1px solid rgb(216, 171, 24);
+    border-radius: 10px;
+}
+.todo {
+    display: flex;
+    justify-content: space-between;
+    width: 777px;
+    flex: 1;
+    padding: 10px;
+    border-radius: 7px;
+}
+.todo input {
+    width: 668px;
+    font-size: 17px;
+}
+.todo button {
+    width: 100px;
+    height: 40px;
+}
+.list {
+    margin-top: 10px;
+    color: rgb(214, 169, 18);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border: 1px solid rgb(214, 169, 18);
+    border-radius: 10px;
+    align-items: center;
+}
+.list button {
+    width: 37px;
+    margin-right: 10px;
+    background-color: inherit;
+    border: none;
+    font-size: 25px;
+    color: brown;
+}
+
+.list input {
+}
+
+.text_todo {
+    padding: 4px;
+    border-radius: 10px;
+}
+.check {
+    margin: 10px;
+}
